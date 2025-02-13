@@ -30,7 +30,7 @@
     </PropertyGroup>
     <!-- ML MONO -->
     <PropertyGroup Condition="'$(Configuration)'=='ML_Mono'">
-        <TargetFramework>net35</TargetFramework>
+        <TargetFramework>net6</TargetFramework>
         <OutputPath>..\Release\UnityExplorer.MelonLoader.Mono\</OutputPath>
         <DefineConstants>MONO,ML</DefineConstants>
         <AssemblyName>UnityExplorer.ML.Mono</AssemblyName>
